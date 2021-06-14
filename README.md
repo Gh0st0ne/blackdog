@@ -18,13 +18,10 @@ I present myself as darkcode and I really like to create information security so
 
 The project is still under development and future updates will focus on the following tasks:
 scheduled for July 16, 2021:
-
-- [ ] class to get csrf
-- [ ] class for data formatting
-- [ ] readme creation
-- [ ] readme adjustment
-- [ ] official publication
-- [ ] create a description for the project
+- [x] readme creation
+- [x] readme adjustment
+- [x] official publication
+- [x] create a description for the project
 
 ## 💻 Prerequisites
 
