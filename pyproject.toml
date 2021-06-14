@@ -8,6 +8,7 @@ authors = ["darkcode357 <darkcode357@gmail.com>"]
 python = "^3.9"
 Django = "^3.2.4"
 standalone = "^1.0.1"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
