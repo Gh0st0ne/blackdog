@@ -33,4 +33,6 @@ from .Telephone_Numbers import *
 from .Tools import *
 from .Username import *
 from .Search import *
+from .Screenshot import *
+
 
