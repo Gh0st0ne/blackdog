@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 from .Archives import *
 from .Dark_Web import *
 from .Documentation import *
@@ -30,3 +32,5 @@ from .Public_Records import *
 from .Telephone_Numbers import *
 from .Tools import *
 from .Username import *
+from .Search import *
+
