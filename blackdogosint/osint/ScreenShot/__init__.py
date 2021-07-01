@@ -49,9 +49,7 @@ class Screenshot:
         try:
             self.driver.get(self.url)
             S = lambda X: self.driver.execute_script(self.jsdocument + X)
-            print(self.jsdocument)
             self.driver.set_window_size(S('Width'), S('Height'))
-            print(self.tagname)
             self.driver.find_element_by_tag_name(self.tagname).screenshot(self.screenshotname)
             if self.showimage:
                 screenshot = Image.open(self.screenshotname)
