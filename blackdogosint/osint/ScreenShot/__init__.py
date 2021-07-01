@@ -60,10 +60,10 @@ class Screenshot:
             print("ERR_NAME_NOT_RESOLVED")
 
 
-test = Screenshot(driver='firefox',
+"""test = Screenshot(driver='firefox',
                   url='https://www.python.org',
                   port=443,
                   jsdocument='body',
                   tagname='body',
                   screenshotname="test.png",
-                  showimage=True).take_screenshot()
+                  showimage=True).take_screenshot()"""
