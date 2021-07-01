@@ -38,7 +38,7 @@ class Screenshot:
             self.__optionsChrome.headless = True
             self.driver = webdriver.Chrome(options=self.__optionsChrome)
         elif self.driver == "firefox":
-            self.driver = webdriver.Firefox(options=self.__optionsFirefoxProfile)
+            self.driver = webdriver.Firefox()
         elif self.driver == "edge":
             self.driver = webdriver.Edge()
         elif self.driver == "opera":
@@ -60,10 +60,10 @@ class Screenshot:
             print("ERR_NAME_NOT_RESOLVED")
 
 
-"""test = Screenshot(driver='chrome',
+test = Screenshot(driver='firefox',
                   url='https://www.python.org',
                   port=443,
                   jsdocument='body',
                   tagname='body',
                   screenshotname="test.png",
-                  showimage=True).take_screenshot()"""
+                  showimage=True).take_screenshot()
