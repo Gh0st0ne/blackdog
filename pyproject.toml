@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "blackdogosint"
-version = "0.1.2-2d"
+version = "0.1.2-beta"
 description = "api supporting OSINT open source queries"
 authors = ["darkcode357 <darkcode357@gmail.com>"]
 
